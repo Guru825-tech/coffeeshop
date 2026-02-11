@@ -1,0 +1,95 @@
+*{
+    background-color: rgb(49, 12, 12);
+}
+nav{
+    color: white;
+    margin:20px;
+
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left:60%;
+}
+li{
+    margin-left: 25px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.image{
+
+    display:inline;
+    float:right;
+    margin-top: 100px;
+}
+.text{
+    color: rgb(168, 105, 32);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top: 300px;
+    display: inline-block;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+p{
+
+    color:white;
+    font-size: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+
+    font-family:'Georgia', 'Times New Roman', Times, serif;
+}
+.button{
+    display:block;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: rgb(255, 153, 0);
+
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+
+  
+}
+.btn{
+    padding: 14px 36px;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.btn-primary{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: rgb(204, 102, 0);
+}
+.btn-outline{
+    background-color: transparent;
+    color: rgb(255, 153, 0);
+    border: 2px solid rgb(255, 153, 0);
+    font-weight: 600;
+}
+.btn-outline:hover{
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
